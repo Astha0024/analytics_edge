@@ -4,7 +4,7 @@ setwd("/Users/astpuri/Desktop/analytics_edge")
 #Load data file. Data source is: https://apps.who.int/gho/data/node.main
 who <- read.csv("WHO.csv")
 
-#Get structure of data
+#Get structure of the data
 str(who)
 
 #Find the coutry with highest literacy rate
